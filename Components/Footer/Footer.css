@@ -1,0 +1,121 @@
+#footer-container{
+height: 350px;
+display: flex;
+justify-content: center;
+padding: 50px;
+bottom: 0;
+}
+
+.Foot-container{
+  display: flex;
+  justify-content: last baseline;
+  flex-direction: column;
+}
+
+
+#promo{
+    letter-spacing: 2px;
+    width: 200px;
+    margin-right: 150px;
+}
+#promo:hover{
+    cursor: pointer;
+}
+#promo img{
+    height: 120px;
+    width: 220px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 5px;
+}
+#promo p{
+    font-size: 11px;
+    font-weight: bolder;
+}
+#promo h4{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight:400;
+    color: sienna;
+}
+#promo h7{
+    font-size: 10px;
+    font-weight:300;
+}
+
+
+
+#qlink{
+    width: 250px;
+}
+#qlink p{
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+#lists{
+    display: flex;
+    margin-top: 20px;
+}
+#lists ul{
+    list-style: none;
+    margin-left: -15px;
+}
+#lists ul li a{
+    
+    font-weight: 100;
+    font-size: 13px;
+}
+#lists ul li a:hover{
+    color: sienna;
+    cursor: pointer;
+}
+
+
+
+
+#contact{
+    width: 300px;
+    margin-left: 80px;
+}
+#contact p{
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+.address{
+    display: flex;
+    margin-top: 20px;
+    font-size: smaller;
+    font-weight: 300;
+}
+.add{
+    width: 200px;
+    font-weight: 300;
+    font-size: 13px;
+    margin: -3px 0px 0px 10px;
+}
+.phone:hover{
+    color: sienna;
+    cursor: pointer;
+}
+.phone{
+    display: flex;
+    margin-top: 20px;
+    font-size: smaller;
+    font-weight: 300;
+    color: rgba(72, 72, 72, 0.652);
+}
+.email{
+    display: flex;
+    margin-top: 20px;
+    font-size: smaller;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}

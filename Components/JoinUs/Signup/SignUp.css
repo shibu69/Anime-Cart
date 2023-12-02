@@ -1,0 +1,53 @@
+#signUpForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0px 90px 0px;
+}
+.signup h2{
+   font-size: 40px;
+   font-weight: 300;
+   margin-bottom: 40px;
+   text-align: center;
+   text-decoration: none;
+}
+
+.signUpInfo input[type="text"],
+.signUpInfo input[type="email"],
+.signUpInfo input[type="tel"],
+.signUpInfo input[type="password"]{
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+
+.signUpInfo h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.signUpInfo input[type="submit"]{
+    margin: 30px 0px 0px 130px;
+    transition: all 0.5s;
+     height: 40px;
+     width: 150px;
+     background-color: black;
+     color: white;
+     font-size: 20px;
+}
+
+.signUpInfo input[type="submit"]:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0px 0px 10px gray;
+}

@@ -1,0 +1,48 @@
+#footbanner-container{
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    background-color:rgba(204, 188, 167, 0.571);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footbanner-container img{
+    height: 500px;
+    width: 450px;
+    margin-right: 50px;
+}
+
+.footbanner-para{
+    text-align: center;
+    margin-left: 50px;
+}
+.footbanner-para p{
+    font-size: 10px;
+}
+.footbanner-para p{
+    padding: 10px;
+    font-size: 10px;
+}
+.footbanner-para h1{
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.footbanner-para button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.footbanner-para button:hover{
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 10px grey;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
