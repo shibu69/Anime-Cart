@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  position: absolute;
+  width: 98.5%;
+  padding: 15px 0px;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
+  z-index: 1;
+  box-shadow: 0px 0px 10px 0px rgb(56, 56, 56);
+}
+
+.logo a img {
+  height: 40px;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+ul li a:hover {
+  color: rgba(94, 93, 93, 0.716);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userInfo {
+  transition: all 0.5s;
+  width: 40px;
+  height: 30px;
+}
+
+.userInfo:hover .join-drop-contain {
+  display: block;
+}
+
+.join-drop-contain {
+  text-align: center;
+  display: none;
+  position: absolute;
+  right: 150px;
+  margin-top: 3px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  width: 100px;
+  box-shadow: 0px 0px 10px grey;
+  z-index: 1;
+}
+
+.join-drop-contain h3 {
+  font-size: 12px;
+}
+
+.join-drop-contain button {
+  background-color: black;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px 0px;
+  width: 100px;
+  color: white;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+
+.join-drop-contain button:hover {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  color: black;
+  border: 2px solid black;
+}

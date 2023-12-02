@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/Footer/Footer';
+import Index from './Components/Index/index';
+import Navbar from "./Components/Navbar/Navbar";
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import MenItem from './Components/Shop/Men/MenItem';
+import WomenItem from './Components/Shop/Women/WomenItem';
+import Accessories from './Components/Shop/Accessories/Accessories';
+import Contact from "./Components/Index/Contact/Contact"
+import LOgin from './Components/JoinUs/Login/LOgin';
+import SignUp from './Components/JoinUs/Signup/SignUp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Index/>}/>
+        <Route path='/men-item' element={<MenItem/>}/>
+        <Route path='/women-item' element={<WomenItem/>}/>
+        <Route path='/accessories' element={<Accessories/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/login' element={<LOgin/>}/>
+        <Route path='/sign-up' element={<SignUp/>}/>
+        
+      </Routes>
+      <Footer/>
+    </Router>
   );
 }
 

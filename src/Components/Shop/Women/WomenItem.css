@@ -1,0 +1,49 @@
+#menItem-container {
+    padding: 150px 200px 100px 200px;
+    box-shadow: 0px 0px 40px grey;
+    border-radius: 10px;
+  }
+  
+  .menItem-head {
+    border-left: 5px solid red;
+    text-align: left;
+    width: 300px;
+    padding: 0px 30px;
+    font-weight: bold;
+    font-size: 25px;
+    transition: all 0.5s;
+  }
+  
+  .menItem-container {
+    padding: 50px 200px;
+  }
+  
+  .menItem-image {
+    padding: 30px;
+  }
+  
+  .menItem-imgs {
+    height: 400px;
+    width: 330px;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  .menItem-imgs:hover {
+    box-shadow: 0px 0px 10px rgb(65, 68, 65);
+  }
+  
+  #hoodies-container{
+      margin-top: 50px;
+  }
+  .pants-container{
+      margin-top: 50px;
+  }
+  
+  .menItem-pr-name{
+      padding-top: 10px;
+  }
+  
+  .menItem-price{
+      padding-top: 5px;
+  }
+  
