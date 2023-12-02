@@ -1,5 +1,7 @@
 # Anime Cart
 
+Preview https://cartnova.netlify.app/
+
 Welcome to Anime Cart, your ultimate destination for anime merchandise! Explore a world of captivating products inspired by your favorite anime series. Immerse yourself in the anime culture and find the perfect items to express your fandom.
 
 ## Features
