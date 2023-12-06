@@ -8,4 +8,10 @@ body{
     background-color: #d4cabd57;
 }
 
-
+#loader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4cabd57;
+}
