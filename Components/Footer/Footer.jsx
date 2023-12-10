@@ -13,7 +13,7 @@ const Footer = () => {
     <div id="footer-container">
       <div id="promo">
         <p>PROMO</p>
-        <img src={promo} alt="Promo" />
+        <img src={promo} alt="Promo"/>
         <h4> Finding the best product for you this SUMMER</h4>
         <h7>From JAN 2024 - MAR 2024</h7>
       </div>

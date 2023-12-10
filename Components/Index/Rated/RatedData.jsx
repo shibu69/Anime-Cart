@@ -3,49 +3,36 @@ import img2 from "./RatedImages/Rated2.webp";
 import img3 from "./RatedImages/Rated3.jpg";
 import img4 from "./RatedImages/Rated4.jpg";
 import img5 from "./RatedImages/Rated5.jpg";
-import img6 from "./RatedImages/Rated6.jpg";
-import img8 from "./RatedImages/Rated8.webp";
-import img9 from "./RatedImages/Rated9.jpeg";
 
 export const RatedImg =[
    {
     image:img1,
     name:"Itachi Uchiha Hoodie",
-    price:"₹1299"
+    price:"₹949",
+    url:"https://amzn.to/41nuTCY"
    },
    {
     image:img2,
-    name:"Naruto Spiral Notebook",
-    price:"₹249"
+    name:"GOJO SATURO Goodnight 16 * 16 Pillow",
+    price:"₹309",
+    url:"https://amzn.to/47Rlhm7"
    },
    {
     image:img3,
-    name:"Thraser Printed T-Shirt",
-    price:"₹499"
+    name:"Eren Yeager Titan Form T-Shirt",
+    price:"₹499",
+    url:"https://amzn.to/46NqFFz"
    },
    {
     image:img4,
-    name:"Pain Quote Poster",
-    price:"₹399"
+    name:"Demon Slayer Manga Gift Set,",
+    price:"₹4180",
+    url:"https://amzn.to/46RmZ5F"
    },
    {
     image:img5,
-    name:"Dio Woolen Sweater",
-    price:"₹1499"
-   },
-   {
-    image:img6,
-    name:"Naruto 6 Badges",
-    price:"₹149"
-   },
-   {
-    image:img8,
-    name:"Luffy Samurai Outfit",
-    price:"₹1999"
-   },
-   {
-    image:img9,
-    name:"Anime Printed Mug",
-    price:"₹399"
-   },
+    name:"K Fandom Jujutsu Kaisen - Gojo Satoru Keychain",
+    price:"₹1499",
+    url:"https://amzn.to/46OPaSR"
+   }
 ]

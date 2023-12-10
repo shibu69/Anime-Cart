@@ -47,6 +47,7 @@ const Index = () => {
               }
             >
               <img
+              loading="lazy"
                 className="card_image"
                 src={item.image}
                 alt="Crousel banner"

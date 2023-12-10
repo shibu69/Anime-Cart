@@ -10,7 +10,7 @@ const Discover = () => {
       </div>
 
       <div className="img-container">
-        <div id="men-img">
+        <div id="men-img" loading="lazy">
           <Link to={"men-item"}>MALE</Link>
         </div>
 
@@ -18,7 +18,7 @@ const Discover = () => {
           <Link to={"women-item"}>FEMALE</Link>
         </div>
 
-        <div id="access-img">
+        <div id="access-img" >
           <Link to={"accessories"}>ACCESSORIES</Link>
         </div>
       </div>

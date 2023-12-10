@@ -5,7 +5,7 @@ import footener from "../../Images/footbanner.webp";
 const FootBanner = () => {
   return (
     <div id="footbanner-container">
-      <img src={footener} alt="Model" />
+      <img src={footener} alt="Model" loading="lazy"/>
 
       <div className="footbanner-para">
         <p>#SUMMER COLLECTION 2024</p>
