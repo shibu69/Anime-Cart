@@ -39,12 +39,14 @@ const Rated = () => {
           return (
             <div className="most-rated">
               <div className="rated-image">
+                <a href={item.url}>
                 <img
                 loading="lazy"
                   className="rated-imgs"
                   src={item.image}
                   alt="Rated Products"
                 />
+                </a>
                 <h3 className="rated-pr-name">{item.name}</h3>
                 <p className="rated-price">{item.price}</p>
               </div>

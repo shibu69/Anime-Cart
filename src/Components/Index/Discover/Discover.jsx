@@ -14,11 +14,11 @@ const Discover = () => {
           <Link to={"men-item"}>MALE</Link>
         </div>
 
-        <div id="women-img" loading="lazy">
+        <div id="women-img">
           <Link to={"women-item"}>FEMALE</Link>
         </div>
 
-        <div id="access-img" loading="lazy">
+        <div id="access-img" >
           <Link to={"accessories"}>ACCESSORIES</Link>
         </div>
       </div>

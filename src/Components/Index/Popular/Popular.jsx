@@ -19,36 +19,36 @@ const Popular = () => {
 
        <div className="popular-product-conatiner">
         <figure>
-          <img src={Product1} alt="First Product" loading="lazy"/>
+          <a href="https://amzn.to/46MxMhG"><img src={Product1} alt="First Product" loading="lazy"/></a>
           <figcaption>KAKASHI OVERSIZED T-SHIRT</figcaption>
-          <figcaption>₹499</figcaption>
+          <figcaption>₹849</figcaption>
         </figure>
         <figure>
-          <img src={Product2} alt="Second Product"loading="lazy" />
+          <a href="https://amzn.to/3RAlh4e"><img src={Product2} alt="Second Product"loading="lazy" /></a>
           <figcaption>GOKU OVERSIZED T-SHIRT</figcaption>
           <figcaption>₹799</figcaption>
         </figure>
         <figure>
-          <img src={Product3} alt="Third Product" loading="lazy" />
-          <figcaption>RISE TAG OVERSIZED T-SHIRT</figcaption>
-          <figcaption>₹399</figcaption>
+          <a href="https://amzn.to/47S3Wtk"><img src={Product3} alt="Third Product" loading="lazy" /></a>
+          <figcaption>ITACHI UCCHIHA TSHIRTS</figcaption>
+          <figcaption>₹749</figcaption>
         </figure>
        </div>
        <div className="popular-product-conatiner-2">
         <figure>
-          <img src={Product4}  alt="Fourth Product" loading="lazy"/>
-          <figcaption >GOKU T-SHIRTS</figcaption>
-          <figcaption>₹899</figcaption>
+          <a href="https://amzn.to/3uT2GHS"><img src={Product4}  alt="Fourth Product" loading="lazy"/></a>
+          <figcaption >FRACTAL NASA MOON T SHIRTS</figcaption>
+          <figcaption>₹799</figcaption>
         </figure>
         <figure>
-          <img src={Product5} alt="Fifth Product" loading="lazy"/>
-          <figcaption>CONQUER WALL POSTER</figcaption>
-          <figcaption>₹299</figcaption>
+          <a href="https://amzn.to/41ieAqR"><img src={Product5} alt="Fifth Product" loading="lazy"/></a>
+          <figcaption>ZORO THREE SWORDS</figcaption>
+          <figcaption>₹999</figcaption>
         </figure>
         <figure>
-          <img src={Product6} alt="Sixth Product" loading="lazy"/>
+          <a href="https://amzn.to/3Tji1eR"><img src={Product6} alt="Sixth Product" loading="lazy"/></a>
           <figcaption>NARUTO RED COLOR SHOES</figcaption>
-          <figcaption>₹1499</figcaption>
+          <figcaption>₹537</figcaption>
         </figure>
        </div>
        </div>
