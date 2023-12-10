@@ -40,6 +40,7 @@ const Rated = () => {
             <div className="most-rated">
               <div className="rated-image">
                 <img
+                loading="lazy"
                   className="rated-imgs"
                   src={item.image}
                   alt="Rated Products"
